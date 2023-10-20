@@ -1,0 +1,41 @@
+unit Unit2;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, Data.Win.ADODB;
+
+type
+  TDataModule2 = class(TDataModule)
+    ADOConnection1: TADOConnection;
+    BookTable: TADOTable;
+    DataSource1: TDataSource;
+    DataSource2: TDataSource;
+    BookTable1: TADOTable;
+    BookTableÊîä: TAutoIncField;
+    BookTableÔàìèëèÿ: TWideStringField;
+    BookTableÈìÿ: TWideStringField;
+    BookTableÎò÷åñòâî: TWideStringField;
+    BookTableÄîëæíîñòü: TIntegerField;
+    BookTableÇâàíèå: TIntegerField;
+    BookTable1Êîä: TAutoIncField;
+    BookTable1Äîëæíîñòü: TWideStringField;
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModule2: TDataModule2;
+
+implementation
+
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+
+end.

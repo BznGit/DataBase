@@ -1,0 +1,113 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'Form3'
+  ClientHeight = 305
+  ClientWidth = 645
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 120
+  TextHeight = 16
+  object Label1: TLabel
+    Left = 345
+    Top = 57
+    Width = 53
+    Height = 16
+    Caption = #1060#1072#1084#1080#1083#1080#1103
+  end
+  object Label2: TLabel
+    Left = 375
+    Top = 87
+    Width = 23
+    Height = 16
+    Caption = #1048#1084#1103
+  end
+  object Label3: TLabel
+    Left = 343
+    Top = 117
+    Width = 55
+    Height = 16
+    Caption = #1054#1090#1095#1077#1089#1090#1074#1086
+  end
+  object Label4: TLabel
+    Left = 356
+    Top = 25
+    Width = 42
+    Height = 16
+    Caption = #1047#1074#1072#1085#1080#1077
+  end
+  object Label5: TLabel
+    Left = 332
+    Top = 145
+    Width = 66
+    Height = 16
+    Caption = #1044#1086#1083#1078#1085#1086#1089#1090#1100
+  end
+  object Button1: TButton
+    Left = 424
+    Top = 184
+    Width = 145
+    Height = 25
+    Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object DBEdit1: TDBEdit
+    Left = 424
+    Top = 49
+    Width = 145
+    Height = 24
+    DataField = #1060#1072#1084#1080#1083#1080#1103
+    DataSource = DataModule2.DataSource
+    TabOrder = 1
+  end
+  object DBEdit2: TDBEdit
+    Left = 424
+    Top = 79
+    Width = 145
+    Height = 24
+    DataField = #1048#1084#1103
+    DataSource = DataModule2.DataSource
+    TabOrder = 2
+  end
+  object DBEdit3: TDBEdit
+    Left = 424
+    Top = 109
+    Width = 145
+    Height = 24
+    DataField = #1054#1090#1095#1077#1089#1090#1074#1086
+    DataSource = DataModule2.DataSource
+    TabOrder = 3
+  end
+  object DBLookupComboBox1: TDBLookupComboBox
+    Left = 424
+    Top = 19
+    Width = 145
+    Height = 24
+    DataField = #1047#1074#1072#1085#1080#1077
+    DataSource = DataModule2.DataSource
+    KeyField = #1050#1086#1076
+    ListField = #1047#1074#1072#1085#1080#1103
+    ListSource = DataModule2.DataSource2
+    TabOrder = 4
+  end
+  object DBLookupComboBox2: TDBLookupComboBox
+    Left = 424
+    Top = 139
+    Width = 145
+    Height = 24
+    DataField = #1044#1086#1083#1078#1085#1086#1089#1090#1100
+    DataSource = DataModule2.DataSource
+    KeyField = #1050#1086#1076
+    ListField = #1044#1086#1083#1078#1085#1086#1089#1090#1100
+    ListSource = DataModule2.DataSource1
+    TabOrder = 5
+  end
+end
